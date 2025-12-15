@@ -20,7 +20,6 @@ import matplotlib.pyplot as plt
 from qiskit.visualization import plot_histogram
 from IPython.display import display
 
-r
 
 print("Librerías importadas y listas.")
 
@@ -187,4 +186,5 @@ try:
 
 except Exception as e:
     print(f"No se pudo ejecutar en hardware real. Error: {e}")
+
 

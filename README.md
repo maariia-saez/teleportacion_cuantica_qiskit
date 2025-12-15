@@ -16,21 +16,28 @@ El notebook está organizado en tres simulaciones principales:
 
 ## Requisitos
 
-- Python 3.x
-- Qiskit 1.0+
-- Qiskit Aer
-- Matplotlib
+- Python 3.x  
+- Qiskit 1.0+  
+- `qiskit-ibm-runtime`  
+- Matplotlib  
 - Cuenta de IBM Quantum (solo necesaria para la Simulación 3)
+
+Instalación recomendada:
+
+```bash
+pip install qiskit qiskit-ibm-runtime matplotlib
+```
+
 
 ## Ejecución
 
-1. Abrir `teleportacion_qiskit.ipynb` con Jupyter (por ejemplo, JupyterLab o VS Code).
-2. Ejecutar las celdas en orden, comenzando por las de importación y configuración global.
+1. Abrir `teleportacion_qiskit.ipynb` con Jupyter (por ejemplo, JupyterLab o VS Code).  
+2. Ejecutar las celdas en orden, comenzando por las de importación y configuración global.  
 3. La Simulación 3 solo se ejecutará correctamente si hay una cuenta de IBM Quantum configurada en la máquina local.
 
 ## Autoras
 
-- **Alicia Elvira Montes Núñez**
+- **Alicia Elvira Montes Núñez**  
 - **María Sáez Díaz**
 
 Realizado como parte de la asignatura *Introducción a la Información y la Computación Cuántica* (2025).
